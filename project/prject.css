@@ -59,8 +59,73 @@ main{
     justify-content: space-evenly;
     align-items: center;
 }
-.text-area h3{
+.text-area{
     width: 30%;
 
     height: 60vh;
+}
+.text-area h3{
+    padding-left: 9em;
+    padding-top: 1em;
+}
+.text-area p{
+    padding-left: 10.5em;
+    padding-top: 1em;
+}
+.form-area{
+width: 30%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+height: 70vh;
+border-radius: 6px;
+/*border: 2px solid black; */
+margin-top: 24mm;
+}
+.form-area > h2{
+    font-weight: lightner;
+}
+.form-area > p{
+    margin-bottom: 24px;
+}
+.form-area > h1, p, h2{
+    text-align: center;
+}
+/*form > input[type="submit"]{
+    border-radius: 25px;
+}*/
+form > input[type="submit"]:hover{
+    background-color: #3894f6;
+}
+form > input[name="email"]{
+    height: 24px;
+}
+/* form > input[type="submint"][class="create-acc"]{
+    background-color: white;
+} */
+
+main > .form-area> form > input[id="next-btn"]{
+    border-radius: 25px;
+}
+.create-btn{
+    border-radius: 25px;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    font-weight: bold;
+    border: 2px solid #007bff;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+.continue-with{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.google-btn{
+
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    border: 2px solid gray;
+    padding: 0.5em 1em;
+    width: 100%;
 }
